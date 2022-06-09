@@ -1,0 +1,34 @@
+@font-face {
+    font-family: FontPersonal;
+    src: url(/DS-DIGII.TTF);
+}
+.fondo {
+    background-color: black;
+}
+.first{
+
+    text-emphasis: none;
+
+}
+.divreloj {
+
+    vertical-align: middle;
+    text-align: center;
+}
+.impor {
+    text-align: center;
+    font-size: 1500%;
+    font-family: FontPersonal,sans-serif;
+    color:  white;
+    margin: 0px;
+    max-height: fit-content;
+}
+.second {
+    text-align: center;
+    font-size: 800%;
+    font-family: FontPersonal;
+    color:  white;
+    margin: 0px;
+    max-height: fit-content;
+}
+
