@@ -1,34 +1,45 @@
 @font-face {
-    font-family: FontPersonal;
-    src: url(/DS-DIGII.TTF);
+  font-family: FontPersonal;
+  src: url(/DS-DIGII.TTF);
 }
-.fondo {
-    background-color: black;
-}
-.first{
-
-    text-emphasis: none;
-
+body {
+  background-color: black;
 }
 .divreloj {
-
-    vertical-align: middle;
-    text-align: center;
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+  font-family: FontPersonal, sans-serif;
+  color: white;
 }
 .impor {
-    text-align: center;
-    font-size: 1500%;
-    font-family: FontPersonal,sans-serif;
-    color:  white;
-    margin: 0px;
-    max-height: fit-content;
+  font-size: 3000%;
+  padding: 0 70px 0 70px;
 }
 .second {
+  font-size: 1500%;
+}
+@media screen and (max-width: 490px) {
+  .divreloj {
     text-align: center;
-    font-size: 800%;
-    font-family: FontPersonal;
-    color:  white;
+    height: 93vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .impor {
+    text-align: center;
+    font-size: 2000%;
+    font-family: FontPersonal, sans-serif;
+    color: white;
     margin: 0px;
     max-height: fit-content;
+  }
+  .second {
+    font-size: 800%;
+    font-family: FontPersonal;
+    color: white;
+    margin: 0px;
+  }
 }
-
