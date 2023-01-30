@@ -1,12 +1,3 @@
-/* setInterval(function obtHora() 
-{
-  var hora = new Date();
-  document.getElementById("horas").innerHTML = hora.getHours();
-  document.getElementById("minutos").innerHTML = hora.getMinutes();
-  document.getElementById("segundos").innerHTML = hora.getSeconds();
-}, 
-1000,);
- */
 setInterval(function obtHora() {
   var hora = Date();
   let re = /[0-9]{1,2}:[0-9]{1,2}:[0-9]{1,2}/;

@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 @font-face {
   font-family: FontPersonal;
   src: url(/DS-DIGII.TTF);
@@ -5,41 +10,35 @@
 body {
   background-color: black;
 }
-.divreloj {
+.relog-contenedor {
+  height: 100vh;
   display: flex;
-  height: 97vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: FontPersonal, sans-serif;
+}
+.contenedor-1 {
+  display: flex;
+  flex-direction: column;
   color: white;
+  font-family: FontPersonal, sans-serif;
+  font-size: 200px;
+  align-items: flex-end;
 }
-.impor {
-  font-size: 3000%;
-  padding: 0 70px 0 70px;
+.contenedor-2 {
+  color: white;
+  font-family: FontPersonal, sans-serif;
+  font-size: 100px;
+  align-items: flex-end;
 }
-.second {
-  font-size: 1500%;
-}
-@media screen and (max-width: 490px) {
-  .divreloj {
-    text-align: center;
-    height: 93vh;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+@media (min-width: 700px) {
+  .relog-contenedor {
+    flex-direction: row;
   }
-  .impor {
-    text-align: center;
-    font-size: 2000%;
-    font-family: FontPersonal, sans-serif;
-    color: white;
-    margin: 0px;
-    max-height: fit-content;
-  }
-  .second {
-    font-size: 800%;
-    font-family: FontPersonal;
-    color: white;
-    margin: 0px;
+  .contenedor-1 {
+    flex-direction: row;
+    font-size: 300px;
+    gap: 50px;
+    margin-right: 50px;
   }
 }
