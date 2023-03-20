@@ -30,6 +30,7 @@ body {
   font-family: FontPersonal, sans-serif;
   font-size: 100px;
   align-items: flex-end;
+  width: 100px;
 }
 @media (min-width: 700px) {
   .relog-contenedor {
