@@ -1,11 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-@font-face {
-  font-family: FontPersonal;
-  src: url(./DS-DIGII.TTF);
 }
 body {
   background-color: black;
@@ -21,7 +18,11 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  font-family: FontPersonal, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
   font-size: 200px;
   align-items: flex-end;
 }
