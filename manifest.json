@@ -4,7 +4,7 @@
   "description": "Una app de reloj digital simple como PWA",
   "start_url": "./",
   "scope": "./",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#000000",
   "theme_color": "#000000",
   "orientation": "portrait",
